@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 283.45742 283.44769"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="allianz-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="283.45743"
+       height="283.44769"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <title
+     id="title1">allianz-logo</title>
+  <path
+     d="M 162.19618,221.23542 V 64.84217 c 0,-12.463436 -4.43081,-16.665557 -16.52263,-16.665557 h -36.61849 v 17.580305 h 2.20112 c 8.34707,0 9.97646,1.886667 9.97646,11.94889 V 221.23542 Z m 18.06627,0 h 40.64909 V 99.431063 c 0,-12.234749 -4.71667,-16.636971 -16.63697,-16.636971 h -24.01212 z m -76.98173,0 V 82.908435 H 79.182844 c -11.92031,0 -16.5798,4.402223 -16.5798,16.636972 V 221.23542 Z m 156.10739,-79.49729 c 0,68.92052 -49.56788,119.03153 -117.63082,119.03153 -68.062936,0 -117.745166,-50.11101 -117.745166,-119.03153 0,-68.920504 49.65365,-119.031521 117.745166,-119.031521 68.09152,0 117.63082,50.396875 117.63082,119.031521 m 24.0693,0 C 283.45741,60.69722 222.82679,0.00943422 141.75729,0.00943422 60.687794,0.00943422 3.9186958e-6,60.69722 3.9186958e-6,141.73813 3.9186958e-6,222.77905 60.630614,283.43825 141.75729,283.43825 c 81.12668,0 141.70012,-60.4591 141.70012,-141.70012"
+     fill="#003781"
+     id="path8"
+     style="stroke-width:2.85859" />
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>allianz-logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

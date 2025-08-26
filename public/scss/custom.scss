@@ -1,0 +1,20 @@
+$secondary: #900028;
+$primary: #003876;
+$body-color: #4f4f4f;
+$link-color: #343a40;
+$link-color-rgb: rgb(52, 58, 64);
+$font-family-base: 'Fustat';  
+$font-family-monospace: '';
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 2rem,
+  8: 1.5rem,
+  9: 1rem
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,308 @@
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: -0.015rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+.navbar-brand img {
+  height: 2.5em;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.safg {
+  font-kerning: normal;
+  font-variant-ligatures: no-common-ligatures;
+  letter-spacing: 0.01em;
+}
+
+.phone {
+  background-image: url(../img/phone-blue.jpg);
+  background-size: 125vh;
+  background-position: center;
+  height: 50vh;
+}
+
+.meet {
+  background-image: url(../img/meet4-blue.jpg);
+  background-size: 150vh;
+  background-position: top;
+  height: 50vh;
+}
+
+.toronto {
+  background-image: url(../img/toronto-blue.jpg);
+  background-size: 150vh;
+  background-position: center 0 50vw;
+  height: 50vh;
+}
+
+.serif {
+  font-family: "Lora", serif;
+}
+
+.leaf {
+  height: 0.6em;
+  margin-left: -0.25em;
+  margin-bottom: 0.5em;
+}
+
+.product-icon {
+  height: 2em;
+}
+
+.rights {
+  font-size: 0.75em;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.card {
+  border: none;
+}
+
+.cred {
+  font-size: 0.65em;
+}
+
+.fadeInLoad {
+  animation: fadeInLoad 2s;
+}
+@keyframes fadeInLoad {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.w-55 {
+  width: 55% !important;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  background-size: cover;
+}
+
+.twitter-icon {
+  background-image: url("/path/to/twitter-icon.png");
+}
+
+.linkedin-icon {
+  background-image: url("/path/to/linkedin-icon.png");
+}
+
+.facebook-icon {
+  background-image: url("/path/to/facebook-icon.png");
+}
+
+.navbar .nav-link {
+  height: 2.75em;
+  width: 100%;
+}
+
+.navbar .nav-link a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbar-nav .nav-link i {
+  display: flex;
+  align-items: baseline;
+}
+.navbar-nav .nav-link:last-child i {
+  display: flex;
+  font-size: 0.75em;
+}
+
+.navbar-nav .bi {
+  font-size: 0.77em;
+}
+
+@media (min-width: 426px) {
+  .navbar .nav-link {
+    width: fit-content;
+  }
+}
+
+#icon {
+  font-size: 1.25em;
+  line-height: 0;
+  border-radius: 5px;
+  color: #c6c6c6;
+  transition: all 0.3s ease;
+  margin-right: 3px;
+}
+
+#icon:active,
+#icon:hover {
+  transform: scale(1.1);
+  color: rgb(79, 79, 79);
+}
+
+.company-group,
+.website-link {
+  font-size: 0.9em;
+  color: rgb(100, 100, 100);
+}
+
+.viver {
+  background-image: url("/img/viver-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+  display: block;
+}
+
+.partner,
+.products {
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+
+.partner-logo,
+.product-logo {
+  max-width: 8em; /* Make SVG fill the container's width */
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 3px;
+}
+
+.logo-container {
+  width: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+@media (min-width: 426px) {
+  .partner {
+    justify-content: space-around;
+  }
+
+  .logo-container {
+    width: 3em;
+  }
+}
+
+/* Loading */
+
+/* public/css/style.css */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1; /* Start fully visible */
+  transition: opacity 0.75s ease; /* Fade effect over 0.5 seconds */
+}
+
+#loading img {
+  max-width: 3em;
+  max-height: 3em;
+}
+
+/* Custom Button */
+
+.btn-safg {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fcfcfc;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px #f1f1f1;
+}
+.btn-safg:active {
+  box-shadow: inset 0px 1px 1px #f1f1f1;
+}
+
+.btn-safg i {
+  font-size: 0.8em;
+}
+
+.badge {
+  border-radius: 3px;
+  height: fit-content;
+  font-size: 7px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+.cred {
+  margin-right: 4px;
+}
+
+.ledger {
+  max-width: 800px;
+}
+
+#to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hidden by default */
+  z-index: 1000; /* Ensure it’s above other content */
+  background-color: #007bff; /* Primary color from Bootstrap */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Circular button */
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s, background-color 0.3s;
+}
+
+#to-top-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+#to-top-btn.show {
+  display: block; /* Show when scrolled */
+}

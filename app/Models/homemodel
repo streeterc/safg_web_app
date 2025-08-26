@@ -1,0 +1,14 @@
+<?php
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class MyPageModel extends Model
+{
+    protected $table = 'your_table';
+
+    public function getData()
+    {
+        return $this->findAll(); // Example query
+    }
+}
