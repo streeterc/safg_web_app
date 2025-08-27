@@ -12,3 +12,8 @@ $routes->get('partners', 'Partners::index');
 $routes->get('/privacy-policy', 'Pages::privacyPolicy');
 $routes->get('/terms-conditions', 'Pages::termsConditions');
 $routes->get('/accessibility-policy', 'Pages::accessibilityPolicy');
+
+$routes->group('blog', function($routes) {
+    $routes->get('/', 'Blog::index');
+    $routes->get('(:any)', 'Blog::show/$1');
+});

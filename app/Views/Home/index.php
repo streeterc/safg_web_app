@@ -166,6 +166,9 @@ Home
     </div>
 </section>
 
+<?php $posts = get_recent_posts(3); ?>
+<?= $this->include('Components/blog_posts', ['posts' => $posts]) ?>
+
 <!-- Toronto Spacer -->
 <div class="row toronto mb-5" aria-hidden="true"></div>
 
